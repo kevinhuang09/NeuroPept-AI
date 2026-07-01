@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# 模型檔（太大）
+*.pt
+*.bin
+models/checkpoints/
+
+# 資料（敏感）
+data/raw/
+*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
